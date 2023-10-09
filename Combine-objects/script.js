@@ -30,16 +30,3 @@ function combine(...params) {
 }
 
 console.log(combine(objA, objB)); // Returns { a: 13, b: 20, c: 36, d: 3 }
-
-// let arr = [
-//   { a: 1, b: 10 },
-//   { a: 3, b: 20 },
-// ];
-
-// console.log(arr[0].a + arr[1].a);
-// let newArr = [];
-// for (let i = 0; i < arr.length; i++) {
-//   console.log(newArr.push(arr[i]));
-// }
-
-// console.log(newArr);
